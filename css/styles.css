@@ -1,0 +1,87 @@
+:root {
+    --dark-background: #1f1f25;
+    --light-background: #d4d3d4;
+    --dark-text: #02010c;
+    --light-text: #e9e1ec;
+}
+
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+.section-light {
+    background: var(--light-background);
+    color: var(--dark-text);
+    padding: 5% 10%;
+}
+
+.section-dark {
+    background: var(--dark-background);
+    color: var(--light-text);
+    padding: 5% 10%;
+}
+
+/* Navigation Bar */
+.navbar {
+    justify-content: flex-end;
+}
+
+.navbar-links {
+    background-color: #ef8172;
+    padding: 15px;
+}
+
+.nav-link {
+    background-color: aqua;
+    font-size: 1.2rem;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
+
+.title-and-navbar {
+    justify-content: space-between;
+    background-color: var(--dark-background);
+  }  
+
+.nav-item {
+    padding: 0 18px;
+}
+
+
+/* Headers */
+
+h1 {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.5;
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bolder;
+}
+
+
+
+/* round image */
+.round-image {
+border-radius: 100%;
+}
+
+  
+  .navbar-brand {
+    font-family: Ubuntu;
+    font-weight: bold;
+    font-size: 2.5rem;
+  }
+
+  
+  /* Download buttons */
+  .download-button {
+    margin: 5% 3% 5% 0;
+  }
+  
+
